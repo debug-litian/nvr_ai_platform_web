@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+requests
+aiohttp
+torch
+torchvision
+numpy
+opencv-python
+Pillow
+ultralytics
+pandas
+plotly
+watchdog
+pydantic
+websockets
+psutil
+reolink-aio
