@@ -6,7 +6,7 @@ NVR AI Platform Web API
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from api.routes import verification, device, monitor, streaming, report_api, rtsp_routes
+from api.routes import verification, device, monitor, streaming, report_api, rtsp_routes, security
 
 app = FastAPI(title="NVR AI Platform API", version="1.0.0")
 
@@ -29,6 +29,7 @@ app.include_router(monitor.router)
 app.include_router(streaming.router)
 app.include_router(report_api.router)
 app.include_router(rtsp_routes.router)
+app.include_router(security.router)
 
 
 @app.get("/api/health")

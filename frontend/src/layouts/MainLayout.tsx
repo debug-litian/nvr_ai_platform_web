@@ -20,6 +20,7 @@ import {
   HeatMapOutlined,
   SwapOutlined,
   CloudUploadOutlined,
+  SecurityScanOutlined,
   SunOutlined,
   MoonOutlined,
 } from '@ant-design/icons';
@@ -95,6 +96,7 @@ const deviceMenuItems: MenuProps['items'] = [
   { key: '/device/heatmap', icon: <HeatMapOutlined />, label: '热力图分析' },
   { key: '/device/channels', icon: <SwapOutlined />, label: '通道管理' },
   { key: '/device/firmware', icon: <CloudUploadOutlined />, label: '固件管理' },
+  { key: '/device/security', icon: <SecurityScanOutlined />, label: '安全扫描' },
 ];
 
 // 根据路径反推展开的菜单 key

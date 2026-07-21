@@ -43,18 +43,6 @@ reports/*.html
 .claude/
 .waylog/
 
-# Legacy (old web/ and old backend files at root)
-web/
-api/
-core/
-config/
-detectors/
-utils/
-models/
-run.py
-requirements.txt
-.env.example
-
 # Temp
 *.tmp
 temp/

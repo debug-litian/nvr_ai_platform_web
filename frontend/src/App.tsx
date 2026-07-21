@@ -33,6 +33,7 @@ import DeviceLogs from './pages/device/DeviceLogs';
 import DeviceHeatmap from './pages/device/DeviceHeatmap';
 import DeviceChannels from './pages/device/DeviceChannels';
 import DeviceFirmware from './pages/device/DeviceFirmware';
+import SecurityScan from './pages/device/SecurityScan';
 
 const App: React.FC = () => {
   return (
@@ -78,6 +79,7 @@ const App: React.FC = () => {
             <Route path="/device/heatmap" element={<DeviceHeatmap />} />
             <Route path="/device/channels" element={<DeviceChannels />} />
             <Route path="/device/firmware" element={<DeviceFirmware />} />
+            <Route path="/device/security" element={<SecurityScan />} />
           </Route>
         </Routes>
       </BrowserRouter>

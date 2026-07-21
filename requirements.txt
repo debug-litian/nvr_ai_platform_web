@@ -1,0 +1,38 @@
+# NVR AI Platform — Web Edition
+# ================================
+
+# --- Web 框架 ---
+fastapi
+uvicorn[standard]
+streamlit
+
+# --- HTTP 客户端 ---
+requests
+aiohttp
+
+# --- 机器学习 / YOLO ---
+torch
+torchvision
+numpy
+opencv-python
+Pillow
+ultralytics
+
+# --- 数据处理 & 可视化 ---
+pandas
+plotly
+
+# --- 文件监控 ---
+watchdog
+
+# --- 数据验证 (FastAPI 依赖) ---
+pydantic
+
+# --- WebSocket (后端) ---
+websockets
+
+# --- 系统工具 ---
+psutil
+
+# --- NVR 设备 API (Python 3.11+ 支持) ---
+reolink-aio
