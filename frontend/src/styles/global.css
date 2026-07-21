@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+#root {
+  height: 100vh;
+}
+
+/* AG Grid 行颜色 */
+.ag-row-normal { background-color: #f6ffed !important; }
+.ag-row-false-alarm { background-color: #fff1f0 !important; }
+.ag-row-green-line { background-color: #fffbe6 !important; }
+.ag-row-failed { background-color: #f5f5f5 !important; }
+
+/* 指标卡 */
+.stat-card {
+  text-align: center;
+  padding: 24px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.stat-card .value {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1677ff;
+}
+.stat-card .label {
+  font-size: 14px;
+  color: #8c8c8c;
+  margin-top: 8px;
+}
+
+/* 页面容器 */
+.page-container {
+  padding: 24px;
+}
+
+.page-header {
+  margin-bottom: 24px;
+}
+.page-header h2 {
+  margin-bottom: 8px;
+}
+
+/* 占位页面 */
+.placeholder-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  color: #8c8c8c;
+}
+.placeholder-page .icon {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
